@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    list-style: none;
+    width: 150px;
+    text-align: center;
+    padding: 30px;
+}
+
+.menu li:hover{
+    background: greenyellow;
+}
+.menu{
+    display: flex ;
+    justify-content: space-between;
+    background: green;
+}
+
+.menu li{
+    position: relative;
+}
+
+
+.home-sub-menu-1{
+    display: none;
+}
+
+
+.menu i {
+    margin-left: 5px;
+}
+
+.menu:hover .home-sub-menu-1{
+    display: block;
+    position: absolute;
+    top: 75px;
+    left:100px;
+    background: green;
+}
+
+.finance-sub-menu{
+    position: relative;
+}
+
+.finance-ul{
+    display: none;
+}
+
+.finance-sub-menu:hover .finance-ul {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 130px;
+     background: green;
+}
